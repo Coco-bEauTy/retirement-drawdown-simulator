@@ -10,9 +10,9 @@ Most Australians in retirement use an Account-Based Pension (ABP), withdrawing a
 
 - Simulates thousands of individual retirement outcomes using **Monte Carlo methods**, driven by official **Australian Government Actuary mortality tables** (Life Tables 2020-22).
 - Compares **three withdrawal strategies**:
-  1. **Fixed 4% Rule** — the industry-standard benchmark: withdraws a fixed dollar amount each year.
-  2. **Dynamic Personalised** — recalculates the withdrawal every year from the member's current balance, current age, and a chosen risk-tolerance ("safety margin") parameter.
-  3. **Personalised Rule (need vs sustainable)** — reconciles what a member *needs* to maintain their chosen lifestyle (an ASFA Retirement Standard benchmark) against what their balance can *sustainably* support, adjusted for health status; flags members likely to need supplementary income (e.g. the Age Pension) rather than silently overspending.
+  1. **Fixed 4% Rule**: the industry-standard benchmark: withdraws a fixed dollar amount each year.
+  2. **Dynamic Personalised**: recalculates the withdrawal every year from the member's current balance, current age, and a chosen risk-tolerance ("safety margin") parameter.
+  3. **Personalised Rule (need vs sustainable)** :reconciles what a member *needs* to maintain their chosen lifestyle (an ASFA Retirement Standard benchmark) against what their balance can *sustainably* support, adjusted for health status; flags members likely to need supplementary income (e.g. the Age Pension) rather than silently overspending.
 - Tracks two distinct risk metrics: the probability of literally running out of money before death, and the (often more realistic) probability of income falling below the [ASFA Retirement Standard](https://www.superannuation.asn.au/resources/retirement-standard) even where the account isn't exhausted.
 - Uses **Common Random Numbers**, a variance-reduction technique that tests every strategy against the *same* simulated population (same simulated lifespans, same simulated market returns) for a fair, paired comparison.
 - Includes a **population-level view**: runs all three strategies across a simulated cohort of 1,000 members (generated from real ABS income/asset distributions) to show outcomes across an entire target segment, not just one hand-picked example.
